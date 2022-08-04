@@ -16,7 +16,7 @@ app.use("/", router);
 
 const PORT = process.env.PORT || 5000;
 
-app.listen(5000, (err) => {
+app.listen(PORT, (err) => {
   if (err) {
     console.log(err.message);
   }
