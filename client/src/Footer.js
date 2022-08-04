@@ -8,10 +8,7 @@ export default function Footer() {
       style={{ height: "6vh" }}
     >
       <p className=" text-sm ">
-        <a
-          className="hover:text-slate-300"
-          href="https://github.com/yagopajarino"
-        >
+        <a className="hover:text-slate-300" href="https://yagopajarino.com.ar">
           Yago Pajariño
         </a>{" "}
         |
