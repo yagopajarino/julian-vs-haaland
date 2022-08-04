@@ -14,7 +14,7 @@ export default function Player({ name, goals }) {
           {name}
         </h1> */}
         <div className="bg-blue-100">
-          <p className=" px-3 text-9xl text-gray-900">{goals}</p>
+          <p className=" px-3 text-8xl md:text-9xl text-gray-900">{goals}</p>
         </div>
       </div>
     </div>

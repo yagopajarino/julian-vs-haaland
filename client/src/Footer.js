@@ -4,7 +4,7 @@ import Twitter from "./components/Twitter";
 export default function Footer() {
   return (
     <footer
-      className="w-full p-2 bg-gray-900 text-gray-50 text-center flex space-x-1 items-center justify-center"
+      className="w-full p-2 text-sm md:text-base bg-gray-900 text-gray-50 text-center flex space-x-1 items-center justify-center"
       style={{ height: "6vh" }}
     >
       <p className=" text-sm ">

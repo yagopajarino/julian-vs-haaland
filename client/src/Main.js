@@ -7,7 +7,7 @@ export default function Main() {
   const [golesHaaland, setgolesHaaland] = useState("");
 
   useEffect(() => {
-    const url = "http://localhost:5000/goles";
+    const url = "https://stark-hamlet-89117.herokuapp.com/goles";
     fetch(url)
       .then((r) => r.json())
       .then((r) => {
@@ -18,7 +18,7 @@ export default function Main() {
 
   return (
     <main
-      className=" w-full flex justify-around items-center"
+      className="flex-col md:flex-row w-full flex justify-around items-center"
       style={{ height: "88vh" }}
     >
       {golesJuli == "" ? (
