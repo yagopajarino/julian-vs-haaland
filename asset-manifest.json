@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/julian-vs-haaland/static/css/main.71fee09b.css",
-    "main.js": "/julian-vs-haaland/static/js/main.7831e5a1.js",
+    "main.js": "/julian-vs-haaland/static/js/main.6967a2db.js",
     "static/media/haaland.jpeg": "/julian-vs-haaland/static/media/haaland.53ab4138ad5e9d7376cf.jpeg",
     "static/media/julian.jpeg": "/julian-vs-haaland/static/media/julian.111e2eae13ebe4866db7.jpeg",
     "index.html": "/julian-vs-haaland/index.html",
     "main.71fee09b.css.map": "/julian-vs-haaland/static/css/main.71fee09b.css.map",
-    "main.7831e5a1.js.map": "/julian-vs-haaland/static/js/main.7831e5a1.js.map"
+    "main.6967a2db.js.map": "/julian-vs-haaland/static/js/main.6967a2db.js.map"
   },
   "entrypoints": [
     "static/css/main.71fee09b.css",
-    "static/js/main.7831e5a1.js"
+    "static/js/main.6967a2db.js"
   ]
 }
