@@ -10,9 +10,6 @@ export default function Player({ name, goals }) {
       }`}
     >
       <div className="w-full h-full flex items-center flex-col justify-center  backgroundFilter">
-        {/* <h1 className="px-5 py-3 my-8 text-5xl text-gray-900 bg-blue-100 rounded">
-          {name}
-        </h1> */}
         <div className="bg-blue-100">
           <p className=" px-3 text-8xl md:text-9xl text-gray-900">{goals}</p>
         </div>
