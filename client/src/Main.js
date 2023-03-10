@@ -7,7 +7,7 @@ export default function Main() {
   const [golesHaaland, setgolesHaaland] = useState("");
 
   useEffect(() => {
-    const url = "https://stark-hamlet-89117.herokuapp.com/goles";
+    const url = "https://julian-vs-halland.onrender.com/goles";
     fetch(url)
       .then((r) => r.json())
       .then((r) => {
