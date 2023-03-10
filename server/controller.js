@@ -22,10 +22,13 @@ const controller = {
     const url_haland =
       "https://www.fichajes.com/jugador/erling-haland/estadistica-de-goles?partial=1&club=manchester-city-fc";
     const haland = axios.get(url_haland);
-    const data = await Promise.all([julian, haland]).then((results) =>
+    const goles = await Promise.all([julian, haland]).then((results) =>
       results.map((i) => getGolesFromHTML(i.data))
     );
-    res.send(data);
+    res.send({
+      julianGoles: goles[0],
+      erlingGoles: goles[1],
+    });
   },
 };
 
